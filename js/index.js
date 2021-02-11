@@ -3,6 +3,6 @@
 
 const main = document.getElementById('main');
 
-main.addEventListener('click', function(event) {
+main.addEventListener('mouseover', function(event) {
   alert('I was clicked!');
 });
